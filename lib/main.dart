@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              const SizedBox(width: 16.0), // Reduce the spacing between the profile image and the next widget
+                              const SizedBox(width: 16.0),
                               Expanded(
                                 child: Align(
                                   alignment: Alignment.centerRight,
@@ -155,12 +155,12 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                const SizedBox(height: 16.0), // Add spacing between "Adventure" text and the button list
+                const SizedBox(height: 16.0),
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: Row(
                     children: [
-                      const SizedBox(width: 16.0), // Add initial spacing before the buttons list
+                      const SizedBox(width: 16.0),
                       ElevatedButton(
                         onPressed: () {
                           // Add your action for "Info" button here
@@ -168,7 +168,7 @@ class MyApp extends StatelessWidget {
                         },
                         style: ElevatedButton.styleFrom(
                           primary: Colors.orange,
-                          fixedSize: const Size(100.0, 40.0), // Set button size here
+                          fixedSize: const Size(100.0, 40.0),
                         ),
                         child: const Text("Info"),
                       ),
@@ -180,7 +180,7 @@ class MyApp extends StatelessWidget {
                         },
                         style: ElevatedButton.styleFrom(
                           primary: Colors.orange,
-                          fixedSize: const Size(100.0, 40.0), // Set button size here
+                          fixedSize: const Size(100.0, 40.0),
 
                         ),
                         child: const Text("Activity"),
@@ -193,7 +193,7 @@ class MyApp extends StatelessWidget {
                         },
                         style: ElevatedButton.styleFrom(
                           primary: Colors.orange,
-                          fixedSize: const Size(100.0, 40.0), // Set button size here
+                          fixedSize: const Size(100.0, 40.0),
                         ),
                         child: const Text("Attendees"),
                       ),
@@ -205,7 +205,7 @@ class MyApp extends StatelessWidget {
                         },
                         style: ElevatedButton.styleFrom(
                           primary: Colors.orange,
-                          fixedSize: const Size(100.0, 40.0), // Set button size here
+                          fixedSize: const Size(100.0, 40.0),
                         ),
                         child: const Text("Members"),
                       ),
@@ -217,14 +217,14 @@ class MyApp extends StatelessWidget {
                         },
                         style: ElevatedButton.styleFrom(
                           primary: Colors.orange,
-                          fixedSize: const Size(100.0, 40.0), // Set button size here
+                          fixedSize: const Size(100.0, 40.0),
                         ),
                         child: const Text("Other"),
                       ),
                     ],
                   ),
                 ),
-                const SizedBox(height: 16.0), // Add spacing before the paragraph of text
+                const SizedBox(height: 16.0),
                 const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16.0),
                   child: Text(
@@ -236,7 +236,7 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 16.0), // Add spacing before the image and details text
+                const SizedBox(height: 16.0),
                 const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16.0),
                   child: Row(
@@ -258,7 +258,7 @@ class MyApp extends StatelessWidget {
                         "Ravi Kumar",
                         style: TextStyle(
                           fontSize: 14.0,
-                          color: Colors.black, // Black color for "Ravi Kumar"
+                          color: Colors.black,
                           fontWeight: FontWeight.bold,
                           decoration: TextDecoration.none,
                         ),
@@ -267,7 +267,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
 
-                const SizedBox(height: 16.0), // Add spacing before the image and details text
+                const SizedBox(height: 16.0),
                 const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16.0),
                   child: Row(
@@ -289,7 +289,7 @@ class MyApp extends StatelessWidget {
                         "Shawn Michael",
                         style: TextStyle(
                           fontSize: 14.0,
-                          color: Colors.black, // Black color for "Ravi Kumar"
+                          color: Colors.black,
                           fontWeight: FontWeight.bold,
                           decoration: TextDecoration.none,
                         ),
@@ -305,7 +305,7 @@ class MyApp extends StatelessWidget {
                   endIndent: 10,
                   color: Colors.grey,
                 ),
-                SizedBox(height: 5.0), // Add spacing before the new row
+                SizedBox(height: 5.0),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 10.0),
                   child: Row(
@@ -315,7 +315,7 @@ class MyApp extends StatelessWidget {
                         "About the venue",
                         style: TextStyle(
                           fontSize: 14.0,
-                          color: Colors.black, // You can customize the color here
+                          color: Colors.black,
                           fontWeight: FontWeight.bold,
                           decoration: TextDecoration.none,
                         ),
@@ -352,10 +352,10 @@ class MyApp extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16.0),
                   child: Image.asset(
-                    'assets/map.jpg', // Replace 'map.jpg' with the actual image file name and extension
-                    height: 100.0, // Adjust the height as needed
-                    width: double.infinity, // Make the image take the full available width
-                    fit: BoxFit.cover, // Adjust the image fit as needed
+                    'assets/map.jpg',
+                    height: 100.0,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
                   ),
                 ),
                 SizedBox(height: 20),
